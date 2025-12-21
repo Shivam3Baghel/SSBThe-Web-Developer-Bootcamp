@@ -1,0 +1,39 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display:flex;
+}
+#container div{
+    width:90px;
+    height:90px;
+
+}
+
+.box-1 {
+    background-color: #80ffdb;
+}
+
+.box-2 {
+    background-color: #64dfdf;
+}
+
+.box-3 {
+    background-color: #48bfe3;
+}
+
+.box-4 {
+    background-color: #5390d9;
+}
+
+.box-5 {
+    background-color: #6930c3;
+}
