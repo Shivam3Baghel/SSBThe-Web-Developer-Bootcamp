@@ -9,6 +9,13 @@
 <body>
     <p id="p1">abc</p>
     <p id="p2">abc</p>
+    <p id="demo"></p>
     <script type="module" src="./src/script-2.js"></script>
+    <script type="module">
+        import { add } from "./src-0/math.js";
+        let result=add(2,3);
+        document.getElementById("demo").innerHTML = "The result is " + result;
+    </script>
+    
 </body>
 </html>
