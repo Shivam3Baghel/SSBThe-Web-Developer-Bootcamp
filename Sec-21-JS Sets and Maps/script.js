@@ -16,9 +16,13 @@ fruits2.set("Chanakya Neeti.", 600);
 fruits2.set("The Power of Positive Thinking.", 400);
 fruits2.set("Memory,How to develop train and use it.", 500);
 console.log(fruits1,fruits2);
+let str="";
 for(const x of letters1){
-    console.log(x);
+    str+=x;
 }
+console.log(str);
+str=""
 for(const x of letters2){
-    console.log(x);
+    str+=x;
 }
+console.log(str);
