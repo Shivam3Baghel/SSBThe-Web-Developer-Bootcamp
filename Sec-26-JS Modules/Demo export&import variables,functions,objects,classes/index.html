@@ -7,8 +7,8 @@
 </head>
 <body>
     <p id="demo">abc</p>
-    <script type="module">import {name, age, say} from "./person.js";
-        document.querySelector("#demo").innerHTML=name+" "+age+" "+say+" "+say();
+    <script type="module">import {name, age, say, person1} from "./person.js";
+        document.querySelector("#demo").innerHTML=name+" "+age+" "+say+" "+say()+" "+person1.name+" "+person1.speak+" "+person1.speak();
     </script>
 </body>
 </html>
