@@ -1,0 +1,17 @@
+{
+  "name": "demo1-franc-package-language-guesser-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "franc": "^5.0.0",
+    "langs": "^2.0.0"
+  }
+}
