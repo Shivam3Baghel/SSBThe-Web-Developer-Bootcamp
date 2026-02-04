@@ -9,4 +9,4 @@ console.log(colors.red.underline('i like cake and pies')) // outputs red underli
 console.log(colors.inverse('inverse the color')); // inverses the color
 console.log(colors.rainbow('OMG Rainbows!')); // rainbow
 console.log(colors.trap('Run the trap')); // Drops the bass
-//cowsay globaly -g ,when we want to install apackage globally so it is present everywhere in th system
+//cowsay globaly -g ,when we want to install apackage globally so it is present everywhere in the system

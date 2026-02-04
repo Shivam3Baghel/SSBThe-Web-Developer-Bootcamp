@@ -15,4 +15,4 @@ export const myObject={
 
 const x=0;
 export default x;//x can be any declared or initialized variable(any type)
-//but must be outside ,{} as it is default
+//but must be outside ,{} as it is default in the file where it is imported
