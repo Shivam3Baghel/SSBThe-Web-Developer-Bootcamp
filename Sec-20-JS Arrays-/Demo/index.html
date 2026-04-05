@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Looping an array normal for loop-</p>
+    <p id="demo"></p>
+    <p >Looping an array through forEach() method</p>
+    <p id="demo0"></p>
+    <script>
+    const fruits=["banana","orange","apple","mango"];
+    let fruitsLength=fruits.length;
+    let text="<ol>";
+        for(let i=0;i<=fruitsLength-1;i++){
+            text+="<li>"+fruits[i]+"</li>";
+        }
+        text+="</>";
+        document.getElementById("demo").innerHTML=text;
+        text="<ol>";
+        function myF(value){
+            text+="<li>"+value+"</li>";
+        }
+        fruits.forEach(myF);
+        text+="</ol>";
+        document.getElementById("demo0").innerHTML=text;
+    </script>
+</body>
+</html>
+<!-- Looping an array normal for loop-
+
+banana
+orange
+apple
+mango
+
+Looping an array through forEach() method
+
+banana
+orange
+apple
+mango -->
