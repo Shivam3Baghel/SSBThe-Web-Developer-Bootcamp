@@ -13,6 +13,5 @@ export const myObject={
     F0:()=>{console.log(2);return 3;}
 }
 
-const x=0;
-export default x;//x can be any declared or initialized variable(any type)
-//but must be outside ,{} as it is default in the file where it is imported
+const x = 0; // x can be any declared or initialized variable (any type)
+export default x; // must be exported outside of {} as default from this module
