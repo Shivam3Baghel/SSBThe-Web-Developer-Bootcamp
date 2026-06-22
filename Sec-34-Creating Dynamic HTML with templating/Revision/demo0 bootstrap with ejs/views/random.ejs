@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random</title>
+</head>
+<body>
+    <h1>Your random no. between 1 to 10 is <%= Math.floor(Math.random()*10)+1 %></h1>
+    <h1>random no. b/w 1 to 100 is <%=randomNumber2%> num=<%=num%> num0=<%=num0%></h1>
+    <% if(randomNumber2%2===0){%>
+    <p>It is an even no.</p>
+    <%}else{%>
+    <p>It is an odd no.</p>
+    <%}%>
+    <p><%= randomNumber2%2===0?"EVEN":"ODD" %></p>
+</body>
+</html>
