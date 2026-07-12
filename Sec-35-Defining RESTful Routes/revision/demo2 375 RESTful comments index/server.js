@@ -18,9 +18,20 @@ const comments=[
     {
         username:"Skylar",
         comment:"I like to go birdwatching with my dog"
+    },
+    {
+        username:"Sk8erBoi",
+        comment:"Please delete your account, Todd"
+    },
+    {
+        username:"onlysayswoof",
+        comment:"woof woof woof"
     }
-    
 ]
+
+app.get("/comments",(req,res)=>{
+    res.render("comments/index",{comments});
+});
 
 app.get("/tacos",(req,res)=>{
 res.send("get /tacos response ssb");
@@ -30,4 +41,4 @@ app.post("/tacos",(req,res)=>{
 res.send(`post /tacos response ssb, OK, here are your ${qty} ${meat}.`);
 });//post route
 app.listen(port,()=>{
-    console.log(`server started on port ${port}.`);});
+console.log(`server started on port ${port}`);});
